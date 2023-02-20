@@ -1,25 +1,15 @@
-import React from 'react';
+import React from "react";
 
 const Home = () => {
-    return (
-        <div>
-            <div className="bg">
-                React spa
-            </div>
-            <main id="main">
-                <section id="section1">
-                    <div className="container">
-                        <p>section1</p>
-                    </div>
-                </section>
-                <section id="section2">
-                    <div className="container">
-                        <p>section2</p>
-                    </div>
-                </section>
-            </main>
+  return (
+    <div>
+      <div className="container">
+        <div className="movieImgWrap">
+          <div className="homeTitle">MOVIE LIST</div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Home;
